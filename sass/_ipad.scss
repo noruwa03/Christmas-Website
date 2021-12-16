@@ -1,0 +1,92 @@
+@media screen and (max-width: 769px) {
+  #christmas-family {
+    padding: 4rem 0rem;
+    width: 100%;
+
+    .col {
+      @include flexItem(column, center);
+      h1 {
+        font-size: 1.9em;
+
+        font-weight: lighter;
+        width: 90%;
+        text-align: center;
+      }
+
+      .img {
+        width: 50%;
+        img {
+          width: 100%;
+          box-shadow: 0rem 0rem 0.2rem rgba(0, 0, 0, 0.2);
+        }
+      }
+
+      .lead {
+        font-size: 1.17em;
+        text-align: center;
+        margin-top: 3rem;
+        font-weight: lighter;
+        width: 90%;
+      }
+    }
+  }
+
+  #gallery {
+    background: $gray1;
+    padding: 3rem 0rem;
+    width: 100%;
+
+    .col {
+      @include flexItem(column, center);
+      h1 {
+        font-size: 3em;
+        text-transform: uppercase;
+        font-weight: lighter;
+      }
+
+      .divider {
+        width: 35%;
+        height: 0.1rem;
+        margin: 0rem auto;
+        background: $black;
+        margin: 1.4rem 0rem;
+      }
+
+      .row {
+        @include flexItem(row, space-around);
+        width: 100%;
+        margin-top: 2.4rem;
+
+        .container {
+          width: 30%;
+          margin: 1rem 0rem;
+          img {
+            width: 100%;
+            box-shadow: 0rem 0rem 0.2rem rgba(0, 0, 0, 0.2);
+          }
+        }
+      }
+    }
+  }
+
+  #thanks {
+    background: $gray1;
+    padding: 4rem 3rem;
+    width: 100%;
+
+    .col {
+      @include flexItem(column, center);
+      h1 {
+        font-size: 2.7em;
+        text-transform: uppercase;
+        font-weight: lighter;
+      }
+
+      p {
+        text-transform: uppercase;
+        margin-top: 1.2rem;
+        font-size: 1.3em;
+      }
+    }
+  }
+}

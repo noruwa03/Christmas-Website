@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "cambria";
+  src: url("/assets/fonts/Cambria.ttf");
+}
+
+@font-face {
+  font-family: "kaushan";
+  src: url("/assets/fonts/Sofia-Regular.ttf");
+}
+
+@font-face {
+  font-family: "croissantOne";
+  src: url("/assets/fonts/CroissantOne-Regular.ttf");
+}
+
+$cambria: "cambria";
+$kaushan: "kaushan";
+$croissantOne: "croissantOne";
